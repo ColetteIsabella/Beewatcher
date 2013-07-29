@@ -1,0 +1,2 @@
+module HoneybeesHelper
+end
