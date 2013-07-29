@@ -1,5 +1,7 @@
 BeeTracker::Application.routes.draw do
 
+  devise_for :users
+
   root :to => "honeybees#index"
     resources :honeybees
   # The priority is based upon order of creation:

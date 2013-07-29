@@ -4,7 +4,7 @@ class CreateHoneybees < ActiveRecord::Migration
       t.string :name
       t.string :description
       t.string :location
-
+      t.references :user_id
       t.timestamps
     end
   end
