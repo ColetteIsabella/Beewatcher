@@ -1,0 +1,18 @@
+<h2>New Bee</h2>
+<%= form_for(@honeybee) do |f| %>
+  <ol>
+    <li>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </li>
+    <li>
+      <%= f.label :description %>
+      <%= f. text_field :description %>
+    </li>
+    <li>
+      <%= f.label :location %>
+      <%= f.text_field :location %>
+    </li>
+    </ol>
+    <%= f.submit %>
+    <% end %>

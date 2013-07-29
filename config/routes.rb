@@ -1,4 +1,7 @@
 BeeTracker::Application.routes.draw do
+
+  root :to => "honeybees#index"
+    resources :honeybees
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
